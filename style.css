@@ -1,13 +1,16 @@
-body {
-    /*
-    background-image: url(./imagens/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    /*background: color image repeat position/size; - shorthand ou atalho*/
+body {
     background: url(./imagens/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 #container {
@@ -22,4 +25,9 @@ body {
 
 #profile img {
     width: 112px;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
 }
