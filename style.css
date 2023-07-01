@@ -70,18 +70,22 @@ ul li a:hover {
 #social-links {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 16px;
 
     padding: 24px 0;
 
     font-size: 24px;
-    
-
 }
 
-#social-links:hover {
-    flex-shrink: 0;
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
 
-    border-radius: 56px;
+#social-links a:hover {
     background: var(--highlight-color-dark-mode, rgba(255, 255, 255, 0.20));
+    padding: 16px;
+    border-radius: 50%;
 }
