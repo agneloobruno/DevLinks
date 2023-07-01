@@ -40,6 +40,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    padding: 24px 0;
 }
 
 ul li a {
@@ -67,10 +69,19 @@ ul li a:hover {
 
 #social-links {
     display: flex;
+    justify-content: center;
     gap: 32px;
 
     padding: 24px 0;
 
     font-size: 24px;
+    
 
+}
+
+#social-links:hover {
+    flex-shrink: 0;
+
+    border-radius: 56px;
+    background: var(--highlight-color-dark-mode, rgba(255, 255, 255, 0.20));
 }
