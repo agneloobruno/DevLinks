@@ -16,3 +16,18 @@ function toggleMode() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.querySelector('.btn');
+    var initialLeft = btn.style.left;
+    var isRight = false;
+
+    btn.addEventListener('click', function() {
+      if (isRight) {
+        btn.style.left = initialLeft;
+        isRight = false;
+      } else {
+        btn.style.left = '32px'; /* Altere o valor para controlar a distância do deslizamento */
+        isRight = true;
+      }
+    });
+  });

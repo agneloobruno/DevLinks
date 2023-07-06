@@ -110,6 +110,7 @@ ul li a:hover {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+    transition: left 0.5s ease;
 }
 
 .light #switch button {
