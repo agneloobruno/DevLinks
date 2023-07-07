@@ -14,6 +14,8 @@ function toggleMode() {
         // se tiver dark mode on, adicionar imagem dark
         img.setAttribute('src', './imagens/Avatar.png')
     }
+
+    
 }
 
 document.addEventListener('DOMContentLoaded', function() {
